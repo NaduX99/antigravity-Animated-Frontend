@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --accent: #f97316;
+}
+
+html,
+body {
+  max-width: 100%;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-outfit), sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image:
+    radial-gradient(circle at 12% 12%, rgba(249, 115, 22, 0.16) 0%, rgba(249, 115, 22, 0) 42%),
+    radial-gradient(circle at 88% 24%, rgba(236, 72, 153, 0.14) 0%, rgba(236, 72, 153, 0) 40%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0));
+}
+
+/* Custom Selection */
+::selection {
+  background-color: var(--accent);
+  color: #ffffff;
+}
+
+/* Hide Scrollbar for all browsers */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* Modern Viewport Units */
+.h-screen-dynamic {
+  height: 100vh;
+  height: 100dvh;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Glassmorphism Utility */
+.glass {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Polish */
+.text-balance {
+  text-wrap: balance;
+}
+
+.tracking-tighter-premium {
+  letter-spacing: -0.05em;
+}
+
+.leading-tight-premium {
+  line-height: 0.9;
+}
+
+a,
+button {
+  transition-property: color, background-color, border-color, transform, opacity, box-shadow;
+  transition-duration: 240ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+:focus-visible {
+  outline: 2px solid rgba(249, 115, 22, 0.75);
+  outline-offset: 2px;
+}
