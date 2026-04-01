@@ -27,8 +27,8 @@ export interface Product {
 
 export const products: Product[] = [
    {
-       id: "mango",
-       name: "Cream Mango",
+       id: "Orange",
+       name: "Cream Orange",
        subName: "Pure sunshine.",
        price: "₹120",
        description: "Rich in Vitamin C - No preservatives - 100% fruit",
@@ -38,14 +38,14 @@ export const products: Product[] = [
        gradient: "linear-gradient(135deg, #FFB74D 0%, #FFA726 100%)",
        features: ["Rich in Vitamin C", "No preservatives", "100% fruit"],
        stats: [{ label: "Sugar", val: "0g" }, { label: "Water", val: "0%" }, { label: "Pulp", val: "100%" }],
-       section1: { title: "Cream Mango.", subtitle: "Pure sunshine." },
-       section2: { title: "Bursting with fresh mango.", subtitle: "Hand-picked Alphonso mangoes, perfectly ripened under the summer sun." },
+       section1: { title: "Cream Orange.", subtitle: "Pure sunshine." },
+       section2: { title: "Bursting with fresh Orange.", subtitle: "Hand-picked Alphonso Oranges, perfectly ripened under the summer sun." },
        section3: { title: "Vitamin-packed refreshment.", subtitle: "A natural energy boost that revitalizes your body and mind instantly." },
        section4: { title: "Made from fruit, not concentrate.", subtitle: "" },
        detailsSection: {
            title: "The King of Fruits",
-           description: "Our Cream Mango juice uses only the finest Ratnagiri Alphonso mangoes. Known for their rich sweetness and vibrant color, these mangoes are cold-pressed within hours of harvest to preserve every drop of nutrient-rich goodness. It's not just juice; it's a liquid gold experience.",
-           imageAlt: "Mango Details"
+           description: "Our Cream Orange juice uses only the finest Ratnagiri Alphonso Oranges. Known for their rich sweetness and vibrant color, these mangoes are cold-pressed within hours of harvest to preserve every drop of nutrient-rich goodness. It's not just juice; it's a liquid gold experience.",
+           imageAlt: "Orange Details"
        },
        freshnessSection: {
            title: "Farm to Bottle",
