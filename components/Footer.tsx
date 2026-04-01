@@ -17,7 +17,7 @@ export default function Footer() {
                 <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" fill="currentColor" />
               </svg>
             </div>
-            <span className="text-xl font-bold">Nano Banana</span>
+            <span className="text-xl font-bold">Nadux</span>
           </div>
           <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
             Crafting the future of freshness through cold-pressed innovation and ethical sourcing. Pure nature, bottled for you.
@@ -74,7 +74,7 @@ export default function Footer() {
 
       {/* Bottom Footer */}
       <div className="max-w-7xl mx-auto pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-gray-500">
-        <p>© {year} Nano Banana. All rights reserved.</p>
+        <p>© {year} Nadux. All rights reserved.</p>
         <div className="flex gap-8">
           <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
           <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
