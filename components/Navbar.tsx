@@ -41,7 +41,7 @@ export default function Navbar() {
           </svg>
         </div>
         <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
-          Nano Banana
+         Nadux
         </span>
       </div>
 
